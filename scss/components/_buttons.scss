@@ -1,0 +1,68 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+
+.btn {
+    background-attachment: fixed;
+    background-color: $color-terciario;
+    margin-bottom: 5%;
+    color: $color-secundario;
+    
+}
+
+.boton2 {
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    text-decoration: underline;
+    left: 38%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 40px;
+    color: $color-cuartario;
+        }
+        .botonservicios {
+            display: inline;
+            margin-top: 10%;
+            position: relative;
+            left: 18%;
+            border: none;
+            text-align: center;
+            background:blue;
+            color: $color-cuartario;
+            line-height: normal;
+            letter-spacing: 3px;  
+            font-size: 1.2em;
+            text-decoration: underline;
+        
+    }
+    .butt3 {
+        color: white;
+            line-height: normal;
+            position: absolute;
+            left: 40%;
+            margin-bottom: 5%;           
+    letter-spacing: 3px;
+    }
+    
+    .butt2 {
+        color: white;
+            line-height: normal;
+            position: relative;
+            margin-right: 20%;            
+    letter-spacing: 3px;
+    padding: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    }
+    
+    .butt1 {
+        position: absolute;
+        top: 75%;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    
+    }
+                

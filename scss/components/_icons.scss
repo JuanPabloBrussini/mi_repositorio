@@ -1,0 +1,14 @@
+@import '../base/colors';
+@import '../base/fonts';
+        
+.itemwapp /* relativo a todo el navegador */
+{
+    position: fixed;
+    border-radius: 5px;
+    top: 85%;
+    z-index: 1;
+    right: 5%;
+}
+.pie {
+    font-size: 0.7em;
+}

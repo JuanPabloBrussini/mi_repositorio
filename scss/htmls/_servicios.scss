@@ -1,0 +1,32 @@
+@import '../base/colors';
+@import '../base/fonts';
+.slogan1 {
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    text-align: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50%;
+    font-family: unset;
+    font-size: 50px;
+color: $color-cuartario;
+z-index: 1;
+}
+.slogan2 {
+    position: absolute;
+    top: 39%;
+    right: 0%;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-family: unset;
+    font-size: 39px;
+    color: $color-cuartario;
+}
+.titles {
+    font-size: 23px;
+    margin-bottom: 7%;
+    margin-top: 1%;
+
+}

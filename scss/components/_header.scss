@@ -1,0 +1,48 @@
+@import '../base/colors';
+@import '../base/fonts';
+header {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    height: 80px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 1;
+    color: $color-cuartario;
+    border: 1px transparent;
+    }
+    .nombre {
+        font-size: 18px;
+        font-family: 'Lora', serif;
+        text-align: center;
+        text-decoration: none;
+        color: $color-cuartario;
+    }
+    
+    nav {
+        width: 100%;
+      z-index: 2;
+      font-size: 15px;
+              height: 100%;
+        position: fixed;
+        top: 2%;
+        left: 0;
+        text-decoration: none;
+
+      }
+    .container-fluid a{
+        color: $color-cuartario !important;
+        text-decoration: none;
+    }
+    .nav-item {
+            color: $color-cuartario   !important;
+            font-size: 1.3em !important;
+            text-decoration: none;
+        
+        } 
+        

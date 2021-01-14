@@ -1,0 +1,32 @@
+@import 'components/buttons';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/icons';
+@import 'components/images';
+@import 'extensions/mixins';
+@import 'base/colors';
+@import 'base/fonts';
+@import 'htmls/contacto';
+@import 'htmls/index';
+@import 'htmls/servicios';
+@import 'htmls/riesgos';
+@import 'htmls/bigdata';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    background-color: pink;
+    @include encabezados;
+    .menu {
+        background-color: blue;
+    
+       a { 
+        font-size: $tamano-fuente;
+
+     }    
+   }
+}
+
