@@ -1,8 +1,8 @@
 <?php
 
-$para = 'jpbrussini@hotmail.com';
+$para = 'jbvirtualconsulting@gmail.com';
 
-$asunto = 'Mensaje de mi sitio web';
+$asunto = 'Mensaje de mi sitio jbvirtualconsulting';
 
 $nombree = $_POST['nombres'];
 $mails = $_POST['email'];
@@ -22,9 +22,6 @@ $mensajeCompleto .= "Enviado el " . date('d/m/Y', time());
 mail($para, $asunto, utf8_decode($mensajeCompleto), $header);
 
 header("Location:gracias.html");
-
-var_dump($_POST);
-die();
 
 
 ?>
