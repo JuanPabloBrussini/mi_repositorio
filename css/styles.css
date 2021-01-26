@@ -504,10 +504,6 @@ body {
     margin-right: 0% !important;
   }
 
-  .page {
-    margin: 0 auto;
-  }
-
   .carousel-caption .tituloriesgo {
     font-size: 1.3em;
   }
@@ -599,10 +595,6 @@ body {
     margin-right: 0% !important;
   }
 
-  .page {
-    margin: 0 auto;
-  }
-
   .contener {
     margin-top: 5%;
     margin-right: 5%;
@@ -655,10 +647,6 @@ body {
   .img2 {
     margin-top: 10%;
     margin-right: 0% !important;
-  }
-
-  .page {
-    margin: 0 auto;
   }
 
   .carousel-caption .tituloriesgo {
@@ -776,10 +764,6 @@ body {
     margin-right: 0% !important;
   }
 
-  .page {
-    margin: 0 auto;
-  }
-
   .contener {
     margin-top: 5%;
     margin-right: 5%;
@@ -792,11 +776,6 @@ body {
   }
 }
 @media only screen and (min-width: 961px) {
-  .page {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
   .footer {
     width: 100% !important;
     bottom: 0% !important;
@@ -810,11 +789,6 @@ body {
     right: 20%;
   }
 }
-.page {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .contenidocont {
   margin-top: 10%;
   margin-right: 0%;
@@ -823,11 +797,6 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  .page {
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-
   .footer {
     width: 100%;
     bottom: 0% !important;
@@ -842,11 +811,6 @@ body {
     right: 20%;
   }
 }
-.page {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .page .contenidocont {
   margin-top: 15%;
   margin-right: 0%;
@@ -945,10 +909,6 @@ body {
     margin-right: 5% !important;
     width: 60% !important;
     height: 60% !important;
-  }
-
-  .page {
-    margin: 0 auto;
   }
 
   .img7 {
