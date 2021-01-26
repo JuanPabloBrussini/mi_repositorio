@@ -436,6 +436,13 @@ body {
     margin-left: 7%;
     margin-bottom: 15%;
   }
+
+  .contenidocont {
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+  }
 }
 /* mobile styles*/
 @media only screen and (min-width: 360px) and (max-width: 549px) {
@@ -792,7 +799,7 @@ body {
 .contenidocont {
   margin-top: 10%;
   margin-right: 0%;
-  margin-left: 0%;
+  margin-left: 15%;
   margin-bottom: 0%;
 }
 
@@ -811,18 +818,12 @@ body {
     right: 20%;
   }
 }
-.page .contenidocont {
-  margin-top: 15%;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-bottom: 0%;
-}
-
 .contenidocont {
   margin-top: 10%;
   margin-right: 0%;
-  margin-left: 0%;
+  margin-left: 15%;
   margin-bottom: 0%;
+  justify-content: center;
 }
 
 .cajamadreind {
