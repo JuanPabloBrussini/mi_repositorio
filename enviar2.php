@@ -25,7 +25,8 @@ header("Location:gracias.html");
 
 print_r($_POST);
 
-echo $nombree;
+var_dump($nombree);
+die($nombree);
 
 ?>
 
