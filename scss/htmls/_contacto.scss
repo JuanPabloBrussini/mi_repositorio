@@ -213,8 +213,7 @@ box-sizing: border-box;
   .img5 {
     margin-top: 25%;
     margin-left: 10% !important;
-    width: 85% !important;
-    height: 80% !important;
+    
 }
 
 }
@@ -236,8 +235,9 @@ box-sizing: border-box;
 .img5 {
     margin-top: 25%;
     margin-right: 10% !important;
-    width: 65% !important;
-    height: 65% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
 }
         .slogan1 {
             font-size: 1.3em !important;
@@ -326,8 +326,9 @@ box-sizing: border-box;
 .img5 {
     margin-top: 15%;
     margin-right: 5% !important;
-    width: 75% !important;
-    height: 65% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
 }
     .itemwapp /* relativo a todo el navegador */
     {
@@ -425,8 +426,9 @@ color: $color-cuartario;
 .img5 {
     margin-top: 25%;
     margin-right: 0% !important;
-    width: 65% !important;
-    height: 60% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
 }
 .boton2 {
 position: absolute;
@@ -542,7 +544,7 @@ color: $color-cuartario;
     overflow: hidden;
   }
   
-@media only screen  and (min-width: 100px) and (max-width: 200px) {
+@media only screen  and (min-width: 100px) and (max-width: 199px) {
     body {
         width: 140% !important;  
         background-color:white;
@@ -612,10 +614,10 @@ color: $color-cuartario;
     }
     .img5 {
         margin-top: 40%;
-        margin-right: 5% !important;
-        width: 60% !important;
-        height: 60% !important;
-    }
+        margin-right: 15% !important;
+        width: 160px !important;
+    height: 160px !important;
+    border-radius: 80px !important;    }
 .img7 {
     margin-top: 10%;
     margin-right: 0% !important;

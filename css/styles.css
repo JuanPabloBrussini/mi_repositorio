@@ -539,8 +539,6 @@ body {
   .img5 {
     margin-top: 25%;
     margin-left: 10% !important;
-    width: 85% !important;
-    height: 80% !important;
   }
 }
 @media only screen and (min-width: 290px) and (max-width: 359px) {
@@ -562,8 +560,9 @@ body {
   .img5 {
     margin-top: 25%;
     margin-right: 10% !important;
-    width: 65% !important;
-    height: 65% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
   }
 
   .slogan1 {
@@ -652,8 +651,9 @@ body {
   .img5 {
     margin-top: 15%;
     margin-right: 5% !important;
-    width: 75% !important;
-    height: 65% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
   }
 
   .itemwapp {
@@ -750,8 +750,9 @@ body {
   .img5 {
     margin-top: 25%;
     margin-right: 0% !important;
-    width: 65% !important;
-    height: 60% !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100px !important;
   }
 
   .boton2 {
@@ -857,7 +858,7 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 200px) {
+@media only screen and (min-width: 100px) and (max-width: 199px) {
   body {
     width: 140% !important;
     background-color: white;
@@ -927,9 +928,10 @@ body {
 
   .img5 {
     margin-top: 40%;
-    margin-right: 5% !important;
-    width: 60% !important;
-    height: 60% !important;
+    margin-right: 15% !important;
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 80px !important;
   }
 
   .img7 {
