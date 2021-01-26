@@ -3,33 +3,51 @@
   background-color: blue;
   margin-bottom: 5%;
   color: black;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .boton2 {
   position: absolute;
-  top: 85%;
+  top: 91%;
   text-align: center;
   text-decoration: underline;
-  left: 38%;
+  left: 42%;
   height: 20%;
   letter-spacing: 2px;
-  font-family: unset;
-  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.9em;
   color: #C70039;
 }
 
 .botonservicios {
   display: inline;
-  margin-top: 10%;
+  margin-top: 5%;
   position: relative;
-  left: 18%;
-  border: none;
+  left: 5%;
+  border-radius: 6px;
   text-align: center;
-  background: blue;
+  background: black;
   color: #C70039;
   line-height: normal;
-  letter-spacing: 3px;
-  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.botonservicios1 {
+  display: inline;
+  margin-top: 15%;
+  position: relative;
+  left: 15%;
+  border: none;
+  text-align: center;
+  background: black;
+  font-family: "Times New Roman", Times, serif;
+  color: #C70039;
+  line-height: normal;
+  letter-spacing: 1px;
+  font-size: 1.1em;
   text-decoration: underline;
 }
 
@@ -38,6 +56,7 @@
   line-height: normal;
   position: absolute;
   left: 40%;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 5%;
   letter-spacing: 3px;
 }
@@ -48,6 +67,7 @@
   position: relative;
   margin-right: 20%;
   letter-spacing: 3px;
+  font-family: "Times New Roman", Times, serif;
   padding: 2%;
   margin-top: 0%;
   margin-bottom: 2%;
@@ -57,6 +77,7 @@
   position: absolute;
   top: 75%;
   height: 100%;
+  font-family: "Times New Roman", Times, serif;
   width: 100%;
   text-align: center;
 }
@@ -97,19 +118,37 @@
   flex: 1;
 }
 
+.footer-distributed .footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  background-color: blue;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
 header {
   width: 100%;
   position: fixed;
   top: 0%;
-  margin-top: 1%;
-  margin-bottom: 5%;
-  height: 80px;
-  display: flex;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: auto;
   text-decoration: none;
   align-items: center;
   justify-content: space-around;
   background-color: white;
-  z-index: 1;
+  z-index: 10;
   color: #C70039;
   border: 1px transparent;
 }
@@ -126,9 +165,9 @@ nav {
   width: 100%;
   z-index: 2;
   font-size: 15px;
-  height: 100%;
+  height: 8%;
   position: fixed;
-  top: 2%;
+  top: 0%;
   left: 0;
   text-decoration: none;
 }
@@ -140,8 +179,26 @@ nav {
 
 .nav-item {
   color: #C70039 !important;
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
   text-decoration: none;
+  position: relative;
+  justify-content: space-around;
+  left: 30%;
+}
+
+.dropdown-menu {
+  background-color: #DCDCDC !important;
+  text-align: right;
+  justify-content: right !important;
+}
+
+.dropdown-menu :hover {
+  background-color: white !important;
+  color: blue !important;
+}
+
+.dropdown-menu {
+  margin-top: 0;
 }
 
 .itemwapp {
@@ -156,10 +213,14 @@ nav {
   font-size: 0.7em;
 }
 
+.lkin {
+  background-color: #00BFFF !important;
+}
+
 .img1 {
-  height: 100%;
+  height: auto;
   border-radius: 50%;
-  width: 100%;
+  width: auto;
 }
 
 .img2 {
@@ -211,6 +272,21 @@ nav {
   border: 1px solid #666 transparent;
 }
 
+.img7 {
+  height: auto;
+  width: auto;
+}
+
+.img8 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 25%;
+  border-radius: 125px;
+  border: 1px solid #666 transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -218,13 +294,13 @@ nav {
 }
 
 .contactanos {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
 .slogan3 {
-  margin-left: 20%;
+  margin-left: 21%;
 }
 
 .btn {
@@ -275,14 +351,6 @@ nav {
     margin-top: 5%;
   }
 
-  .in {
-    margin-top: 10%;
-    position: relative;
-    margin-right: 20%;
-    align-items: center;
-    border-radius: 5px;
-  }
-
   .cajamadre {
     position: relative;
     display: flex;
@@ -302,6 +370,38 @@ nav {
   .sloganbd .sloganbd2 {
     font-size: 1.1em;
   }
+
+  .slogan1 {
+    font-size: 1.6em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.5em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 37%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.6em;
+    color: #C70039;
+  }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-bottom: 15%;
+  }
 }
 /* mobile styles*/
 @media only screen and (min-width: 360px) and (max-width: 549px) {
@@ -315,6 +415,36 @@ nav {
     bottom: 0%;
   }
 
+  .img5 {
+    margin-top: 15%;
+    margin-right: 10% !important;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.3em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 35%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.5em;
+    color: #C70039;
+  }
+
   .contactanos {
     margin-right: 5%;
   }
@@ -325,13 +455,6 @@ nav {
     top: 85%;
     z-index: 1;
     right: 10%;
-  }
-
-  .in {
-    margin-top: 10%;
-    position: relative;
-    margin-right: 0%;
-    border-radius: 5px;
   }
 
   .cajamadre {
@@ -361,6 +484,13 @@ nav {
     margin-left: 0%;
     bottom: 0% !important;
   }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+  }
 }
 @media only screen and (min-width: 290px) and (max-width: 359px) {
   body {
@@ -370,11 +500,44 @@ nav {
 
   .footer {
     margin-bottom: 0%;
+    width: 100% !important;
   }
 
   .footer-contacto {
     position: fixed;
     bottom: 0%;
+  }
+
+  .img5 {
+    margin-top: 25%;
+    margin-right: 10% !important;
+    width: 65% !important;
+    height: 65% !important;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.3em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 32%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.4em;
+    color: #C70039;
   }
 
   .contactanos {
@@ -389,13 +552,6 @@ nav {
     right: 10%;
   }
 
-  .in {
-    margin-top: 10%;
-    position: relative;
-    margin-right: 10%;
-    border-radius: 5px;
-  }
-
   .cajamadre {
     position: relative;
     display: flex;
@@ -411,6 +567,13 @@ nav {
 
   .page {
     margin: 0 auto;
+  }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
   }
 
   .carousel-caption .tituloriesgo {
@@ -423,8 +586,20 @@ nav {
     background-color: white;
   }
 
+  .footer {
+    margin-bottom: 0%;
+    width: 100% !important;
+  }
+
   .contactanos {
-    margin-right: 5%;
+    margin-right: 0%;
+  }
+
+  .img5 {
+    margin-top: 15%;
+    margin-right: 5% !important;
+    width: 75% !important;
+    height: 65% !important;
   }
 
   .itemwapp {
@@ -433,13 +608,6 @@ nav {
     top: 85%;
     z-index: 1;
     right: 10%;
-  }
-
-  .in {
-    margin-top: 10%;
-    position: relative;
-    margin-right: 10%;
-    border-radius: 5px;
   }
 
   .cajamadre {
@@ -461,6 +629,38 @@ nav {
 
   .carousel-caption .tituloriesgo {
     font-size: 1.3em;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.3em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 32%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.4em;
+    color: #C70039;
+  }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 251px) {
@@ -474,8 +674,51 @@ nav {
     bottom: 0%;
   }
 
+  .footer {
+    margin-bottom: 0%;
+    width: 100% !important;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.3em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .img5 {
+    margin-top: 25%;
+    margin-right: 0% !important;
+    width: 65% !important;
+    height: 60% !important;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 32%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.4em;
+    color: #C70039;
+  }
+
   .contactanos {
-    margin-right: 5%;
+    margin-right: 0%;
   }
 
   .itemwapp {
@@ -484,13 +727,6 @@ nav {
     top: 85%;
     z-index: 1;
     right: 10%;
-  }
-
-  .in {
-    margin-top: 10%;
-    position: relative;
-    margin-right: 10%;
-    border-radius: 5px;
   }
 
   .cajamadre {
@@ -508,6 +744,13 @@ nav {
 
   .page {
     margin: 0 auto;
+  }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
   }
 
   .carousel-caption .tituloriesgo {
@@ -537,8 +780,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-.page .contenidocont {
-  margin-top: 5%;
+
+.contenidocont {
+  margin-top: 10%;
   margin-right: 0%;
   margin-left: 0%;
   margin-bottom: 0%;
@@ -568,20 +812,127 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
+
 .page .contenidocont {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-right: 0%;
   margin-left: 0%;
   margin-bottom: 0%;
 }
 
 .contenidocont {
-  margin-top: 3%;
+  margin-top: 10%;
   margin-right: 0%;
   margin-left: 0%;
   margin-bottom: 0%;
 }
 
+.cajamadreind {
+  position: relative;
+  display: inline-block;
+  right: 0%;
+  left: 0%;
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 200px) {
+  body {
+    width: 140% !important;
+    background-color: white;
+  }
+
+  .footer-contacto {
+    position: fixed;
+    width: 120% !important;
+    bottom: 0%;
+  }
+
+  .footer {
+    margin-bottom: 0%;
+    width: 120% !important;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan1 {
+    font-size: 1.4em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .slogan2 {
+    font-size: 1.3em !important;
+    position: relative;
+    top: auto;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    text-decoration: underline;
+    left: 32%;
+    height: 20%;
+    letter-spacing: 2px;
+    font-family: unset;
+    font-size: 1.4em;
+    color: #C70039;
+  }
+
+  .contactanos {
+    margin-right: 0%;
+  }
+
+  .itemwapp {
+    position: fixed;
+    border-radius: 5px;
+    top: 85%;
+    z-index: 1;
+    right: 10%;
+  }
+
+  .cajamadre {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img5 {
+    margin-top: 40%;
+    margin-right: 5% !important;
+    width: 60% !important;
+    height: 60% !important;
+  }
+
+  .page {
+    margin: 0 auto;
+  }
+
+  .img7 {
+    margin-top: 10%;
+    margin-right: 0% !important;
+  }
+
+  .contener {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+  }
+
+  .carousel-caption .tituloriesgo {
+    font-size: 1.3em;
+  }
+}
 .cajamadreind {
   position: relative;
   display: inline-block;
@@ -616,9 +967,16 @@ nav {
   color: #C70039;
 }
 
-.contenido {
+.contener {
   margin-top: 5%;
-  margin-right: 12%;
+  margin-right: 5%;
+  margin-left: 8%;
+  margin-bottom: 15%;
+}
+
+.contenidos {
+  margin-top: 5%;
+  margin-right: 11.99%;
   margin-left: 8%;
   margin-bottom: 15%;
 }
@@ -629,7 +987,7 @@ nav {
   line-height: normal;
   letter-spacing: 3px;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 3%;
   font-size: 2em;
   position: absolute;
@@ -672,29 +1030,36 @@ h2 {
   margin-left: 0.75rem;
 }
 
+.parrafo4 {
+  margin-top: 0%;
+  margin-right: 5%;
+  width: 240px;
+  text-align: justify;
+}
+
 .slogan1 {
   position: absolute;
-  top: 12%;
+  top: 17%;
   right: 0%;
   text-align: center;
   justify-content: flex-end;
   width: 100%;
   height: 50%;
-  font-family: unset;
-  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8em;
   color: #C70039;
   z-index: 1;
 }
 
 .slogan2 {
   position: absolute;
-  top: 39%;
-  right: 0%;
+  top: 40%;
+  left: 1%;
   text-align: center;
   width: 100%;
   height: 50%;
-  font-family: unset;
-  font-size: 39px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
   color: #C70039;
 }
 
@@ -702,11 +1067,27 @@ h2 {
   font-size: 23px;
   margin-bottom: 7%;
   margin-top: 1%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo3 {
+  font-size: 33px !important;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-left: 8%;
+  position: relative;
+  top: 0%;
+}
+
+.opciones {
+  margin-right: 5%;
+  padding-right: 5%;
 }
 
 .tituloriesgo {
   color: #C70039;
-  font-size: 1.9em;
+  font-size: 2.2em;
   z-index: 2;
 }
 
@@ -725,7 +1106,7 @@ h2 {
   left: 10%;
   text-align: left;
   z-index: 2;
-  font-family: unset;
+  font-family: "Times New Roman", Times, serif;
   font-size: 45px;
   color: #C70039;
 }
@@ -737,7 +1118,7 @@ h2 {
   width: 100%;
   height: 50%;
   z-index: 2;
-  font-family: unset;
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   color: #C70039;
 }
@@ -754,6 +1135,7 @@ h2 {
 
 .parrafo3 {
   margin-top: 0%;
+  margin-right: 3%;
 }
 
 .i.fa-envelope {
@@ -778,6 +1160,65 @@ h2 {
   line-height: 30px;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+
+.contenidosb {
+  margin-top: 3%;
+  margin-right: 12%;
+  margin-left: 8%;
+  margin-bottom: 15%;
+}
+
+.slogandw1 {
+  position: absolute;
+  top: 17%;
+  right: 0%;
+  text-align: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+  font-family: unset;
+  font-size: 2.4em;
+  color: #C70039;
+  z-index: 1;
+}
+
+.slogandw2 {
+  position: absolute;
+  top: 46%;
+  left: 1%;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  font-family: unset;
+  font-size: 1.7em;
+  color: #C70039;
+}
+
+.slogan1m {
+  position: absolute;
+  top: 1%;
+  right: 0%;
+  text-align: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+  font-family: unset;
+  font-size: 2em;
+  color: #C70039;
+  z-index: 1;
+}
+
+.slogan2m {
+  position: absolute;
+  top: 86%;
+  left: 1%;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  font-family: unset;
+  font-size: 1.5em;
+  color: #C70039;
 }
 
 * {

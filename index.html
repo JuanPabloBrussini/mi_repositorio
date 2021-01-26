@@ -13,8 +13,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/b9257df16c.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="/js/main.js"></script>  
 
-  
 <!-- SEO-->
 
 <meta name="description" content="JB Virtual Consulting es una consultora que orienta su asesoramiento en bajar los riesgos y disminuir sus costos">
@@ -41,7 +42,8 @@
         <body>
 
     <!--header-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nombre">
+    <header>
+    <nav class="navbar header navbar-expand-lg navbar-dark bg-dark nombre" role="navigation">
       <div class="container-fluid">
           <a class="navbar-brand">
              <div class="logo">
@@ -50,6 +52,8 @@
         </div>
       </a>
            
+      <!-- Menu -->
+      
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,8 +64,20 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapseExample">
+                        Servicios
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="servicios.html">Servicios & Outsourcing</a></li>
+                        <li><a class="dropdown-item" href="comercioexterior.html">Comercio Exterior</a></li>
+                        <li><a class="dropdown-item" href="desarrolloweb.html">Diseño Web</a></li>
+                        <li><a class="dropdown-item" href="facturacioncobranzas.html">Facturación y Cobranzas</a></li>
+                        <li><a class="dropdown-item" href="marketingventas.html">Marketing y Ventas</a></li>
+                        <li><a class="dropdown-item" href="compraspagosbancos.html">Proveedores</a></li>
+                        <li><a class="dropdown-item" href="proyectos.html">Proyectos de Inversión</a></li>
+              
+                      </ul>
                     </li>
                     <li class="nav-item">
                           <a class="nav-link" href="riesgos.html">Riesgos</a>
@@ -69,7 +85,7 @@
                     <li class="nav-item">
                           <a class="nav-link" href="bigdata.html">Big Data</a>
                       </li>
-                      <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="Contacto.html">Contacto</a>
                     </li>
                   
@@ -77,8 +93,11 @@
             </div>
         </div>
       </nav>  
-
+    </header>
+      <!-- Carrousel -->
+      
 <section>
+
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
@@ -87,22 +106,22 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img style="width: 1260px; height: 570px;" src="multimedia/1500x844_consultoria.jpg" class="d-block w-100" alt="consultoria Estratégica">
+        <img style="width: 100%; height: 570px;" src="multimedia/1500x844_consultoria.jpg" class="d-block w-100" alt="consultoria Estratégica">
         <div class="carousel-caption">
           <h1 class="tituloriesgo">Consultoria Estratégica</h1>
           <p class="tituloriesgo">Previsión y planificación para potenciar tu negocio</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img style="width: 1260px; height: 570px;" src="multimedia/home2.jpg" class="d-block w-100" alt="riesgos y finanzas">
+        <img style="width: 100%; height: 570px;" src="multimedia/home2.jpg" class="d-block w-100" alt="riesgos y finanzas">
         <div class="carousel-caption">
-          <h1 class="tituloriesgo">Riesgos & Finanzas</h1>
-          <p class="tituloriesgo">Desarrollo de Negocios</p>
+          <h1 class="tituloriesgo">Desarrollo de Negocios</h1>
+          <p class="tituloriesgo">Proyectos de Inversión</p>
         </div>
       </div>
       
       <div class="carousel-item">
-        <img style="width: 1260px; height: 570px;" src="multimedia/home3.jpg" class="d-block w-100" alt="emprendedores">
+        <img style="width: 100%; height: 570px;" src="multimedia/home3.jpg" class="d-block w-100" alt="emprendedores">
         <div class="carousel-caption">
           <h1 class="tituloriesgo">Ideas Innovadoras</h1>
           <p class="tituloriesgo">Asesoramos Emprendedores</p>
@@ -120,51 +139,89 @@
     </a>
   </div>
 
-<!--Negritas-->
 </section>
-<section class="contenido">
 
-    <div class="container marketing">
+       <!-- Contenido -->
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <a href="servicios.html"> <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/servicios-it-corporativos.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
-    
-            <h2>Servicios</h2>
-            <p>Evaluamos el desarrollo de procesos y el funcionamiento de la empresa para realizar un diagnóstico sobre el cual trabajar y brindarles los servicios profesionales que requieran.</p>
-            <p><a class="btn btn-secondary" href="servicios.html" role="button">+Info &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <a href="riesgos.html"> <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/riesgos2.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
-    
-            <h2>Riesgos</h2>
-            <p>Los consultamos sobre el funcionamiento de la empresa para realizar un diagnóstico sobre el cual identificar los riesgos y asesorarlos sobre los mejores seguros existentes.</p>
-            <p><a class="btn btn-secondary" href="riesgos.html" role="button">+Info &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <a href="bigdata.html">
-          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/bigdata3.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
-         
-            <h2>Big Data</h2>
-            <p>En pos de exprimir al máximo la información, trabajamos en la recolección de datos internos y externos de la empresa y su rubro, con el fin de reducir costos y optimizar decisiones basadas en datos.  </p>
-            <p><a class="btn btn-secondary" href="bigdata.html" role="button">+Info &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-    
+<section class="contener">
 
-</section>
-</section>
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <a href="servicios.html"> <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/servicios-it-corporativos.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+
+        <h2>Servicios</h2>
+        <p>Evaluamos el desarrollo de procesos y el funcionamiento de la empresa para realizar un diagnóstico sobre el cual trabajar y brindarles los servicios profesionales que requieran.</p>
+        <p><a class="btn btn-secondary" href="servicios.html" role="button">+Info &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <a href="riesgos.html"> <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/riesgos2.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+
+        <h2>Riesgos</h2>
+        <p>Los consultamos sobre el funcionamiento de la empresa para realizar un diagnóstico sobre el cual identificar los riesgos y asesorarlos sobre los mejores seguros existentes.</p>
+        <p><a class="btn btn-secondary" href="riesgos.html" role="button">+Info &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <a href="bigdata.html">
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="multimedia/bigdata3.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+     
+        <h2>Big Data</h2>
+        <p>En pos de exprimir al máximo la información, trabajamos en la recolección de datos internos y externos de la empresa, reduciendo costos y optimizando decisiones basadas en datos.  </p>
+        <p><a class="btn btn-secondary" href="bigdata.html" role="button">+Info &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
 </section>
 
+</section>
+
+      <!-- Contenido -->
+
+
+      <section class="contenidos">
+        <!-- Columnas -->
+  
+  <div class="row">
+
+  <div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: white;">
+      <h2 class="titulo3">Mentalidad Estratégica</h2>
+      
+      <p class="parrafo3">En JB Virtual Consulting nos comprometemos con nuestros clientes en todo el proceso, desde el levantamiento hasta la puesta en marcha de las soluciones diseñadas.
+        Nuestros socios provienen desde las empresas, lo cual hace que su experiencia esté construida en base a situaciones, oportunidades, problemas y tiempos reales.    </p>
+      
+        <p class="parrafo3"> Te ayudamos en la correcta implementación de soluciones en función de los procesos definidos y en funcion de la definición de la Estrategia Global de la empresa.
+      
+      </p>
+    </div>
+  
+  <div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: white;">
+  <img     style="width: 600px; height: 500px;" class="img-fluid" src="multimedia/ajedrez.jpg" alt="potenciar estrategias">  </div>
+  
+  
+  </div>
+  
+  <!-- botones -->
+  <section class="butt2">
+      <p>.</p>
+      <a href="Contacto.html" class="botonservicios1"><h3>Consultá ahora</h3></a>
+  
+  </section>
+  </section>
+  
+  </section>
+  
+      <!-- Iconos -->
 
 <div class="itemwapp">
-    <a href="https://api.whatsapp.com/send?phone=numero&text=mensaje">  
+    <a href="https://wa.link/kj5umd">  
     <img style="width: 55px; height: 45px;" src="multimedia/whatsapp.png" alt="whatsapp" class="img1"> </div>
-  </a>
+    </a>
+  
   </div>
-         
+      <!-- Footer -->
+
     <footer class="footer">
       <div class="footer-item footer-one">
       <img style="width: 40px; height: 30px;"src="multimedia/logosjb.png" alt="consultoria en funcion de tu negocio" class="logo">
@@ -177,8 +234,8 @@
           <p>+54 9 11 64982110</p>
           </div>
             
-        <a class="nombre" href="#"><i class="fa fa-twitter icono"></i></a>
-        <a class="nombre" href="https://www.linkedin.com/in/juan-pablo-brussini/"><i class="fa fa-linkedin"></i></a>
+        <a class="lkin" href="https://twitter.com/juanpabrus"><i class="fa fa-twitter icono"></i></a>
+        <a class="lkin" href="https://www.linkedin.com/in/juan-pablo-brussini/"><i class="fa fa-linkedin"></i></a>
 
         </div>
            <div>
@@ -188,12 +245,10 @@
               <h8 class="pie">jbvirtualconsulting &copy; 2021<h8>
               
               </div>
-      
-  
+        
       </div>
   
-   
-      
+         
   </footer>
 </section>
 
@@ -206,6 +261,7 @@
     crossorigin="anonymous"></script>
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
- 
+
+
 </body>
 </html>

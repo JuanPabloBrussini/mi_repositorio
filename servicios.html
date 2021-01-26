@@ -38,10 +38,11 @@
       
       <link rel="shortcut icon" href="multimedia/logosjb.png" type="image/x-icon">
         </head>
-        <body background= "multimedia/pawel-czerwinski-mfIplTZLE6E-unsplash2mg.jpg">
+        <body>
 
     <!--header-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nombre">
+    <header>
+    <nav class="navbar header navbar-expand-lg navbar-dark bg-dark nombre">
         <div class="container-fluid">
             <a class="navbar-brand">
                <div class="logo">
@@ -49,58 +50,70 @@
               <strong class="nombre">JB Virtual Consulting</strong>
           </div>
         </a>
-            
+                          
+      <!-- Menu -->
+      
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                          <a class="nav-link" href="riesgos.html">Riesgos</a>
-                      </li>
-                    <li class="nav-item">
-                          <a class="nav-link" href="bigdata.html">Big Data</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="Contacto.html">Contacto</a>
-                    </li>
-                  
-                </ul>
-            </div>
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="servicios.html">Servicios & Outsourcing</a></li>
+                    <li><a class="dropdown-item" href="comercioexterior.html">Comercio Exterior</a></li>
+                    <li><a class="dropdown-item" href="desarrolloweb.html">Diseño Web</a></li>
+                    <li><a class="dropdown-item" href="facturacioncobranzas.html">Facturación y Cobranzas</a></li>
+                    <li><a class="dropdown-item" href="marketingventas.html">Marketing y Ventas</a></li>
+                    <li><a class="dropdown-item" href="compraspagosbancos.html">Proveedores</a></li>
+                    <li><a class="dropdown-item" href="proyectos.html">Proyectos de Inversión</a></li>
+          
+                  </ul>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="riesgos.html">Riesgos</a>
+                  </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="bigdata.html">Big Data</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+              
+            </ul>
         </div>
-      </nav>  
+    </div>
+  </nav>  
+</header>
 
-<section>
+<!-- Principal -->
+      <section>
 <div class="cajamadreind">
-        <img style="width: 1349px; height: 580px;" class="img-fluid" src="multimedia/servicios-it-corporativos.jpg" alt="Servicios profesionales en asesoramiento">
+        <img style="width: 100%; height: 580px;" class="img-fluid" src="multimedia/servicios-it-corporativos.jpg" alt="Servicios profesionales en asesoramiento">
 
     <!--negritas-->
     <strong>    
         <!--negritas-->    
         <!--titulos-->
-        <div class="slogan1"><h1>Servicios</h1></div>
-        <div class="slogan2"><h3>Profesionalidad a disposicion de tu empresa</h3> </div>
+        <div class="slogan1"><h1 class="slogan1">Servicios</h1></div>
+        <div class="slogan2"><h3 class="slogan2">Asesoramiento Profesional</h3> </div>
         </strong>
-            <!-- botones -->
-    <div>
-        <a href="Contacto.html" class="boton2"><h3>Contactanos</h3></a>
-        
-    </div>
     </div>
 </section>
 
+      <!-- Contenido -->
 
-<!--Negritas-->
 
-<section class="contenido">
+<section class="contenidos">
+      <!-- Columnas -->
 
 <div class="row">
      <div class="col-12 col-md-2 col-lg-2" style="height: 40px;"></div>
@@ -117,54 +130,42 @@
 
 <div class="row">
         <div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: white;">
-          <img style="width: 600px; height: 500px;" class="img-fluid" src="multimedia/graficoservicios1.jpg" alt="oportunidad">
-
+          <div class="d-grid gap-2 col-12 mx-auto opciones">
+            <a href="comercioexterior.html" class="botonservicios"><h3>Comercio Exterior</h3></a>
+            <a href="desarrolloweb.html" class="botonservicios"><h3>Diseño Web</h3></a>
+            <a href="facturacioncobranzas.html" class="botonservicios"><h3>Facturación&Cobranzas</h3></a>
+            <a href="marketingventas.html" class="botonservicios"><h3>Marketing&Ventas</h3></a>
+            <a href="compraspagosbancos.html" class="botonservicios"><h3>Proveedores</h3></a>
+            <a href="proyectos.html" class="botonservicios"><h3>Proyectos Inversión</h3></a>
+                 </div>          
         </div>
-<div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: whitesmoke ;">
-<h2 class="titulo3">Oportunidad</h2>
+<div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: white;">
+<h2 class="titulo3">Oportunidad de Cambios</h2>
 
 <p class="parrafo3"> Los cambios son esenciales para recuperarnos de la actual crisis.        
+Tener una visión externa de la situación de la empresa brinda alternativas y soluciones que estando dentro es probable que no sean visibles a simple vista.
+<p> Nutrirse de servicios profesionales trabajados por objetivos es una oportunidad de crecer la empresa con la minima inversion posible sin crecer en estructura y costos fijos, en tiempos muy variables hay que ser flexibles. 
 </p>
-
-<p class="parrafo3">En tiempos de stress sale a flote lo mejor de nuestros equipos. 
-Las crisis son un recurso escaso, el que tenemos que aprovechar y sacar el máximo de ellas. 
-Los obstáculos existen para superarlos y salir del otro lado renovados, no para detenernos.
+<p>La gestión mediante Outsourcing profesional brinda la oportunidad de mejora y crecimiento reduciendo costos y optimizando recursos.</p>
 </p>
-
-</div>
-<div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: whitesmoke ;">
-    <h2 class="titulo3">Profesionalidad</h2>
-    
-    <p class="parrafo3">En JB Virtual Consulting nos comprometemos con nuestros clientes en todo el proceso, desde el levantamiento hasta la puesta en marcha de las soluciones diseñadas.
-      Nuestros socios provienen desde las empresas, lo cual hace que su experiencia esté construida en base a situaciones, oportunidades, problemas y tiempos reales.    </p>
-    
-      <p class="parrafo3"> Te ayudamos en la correcta implementación de soluciones en función de los procesos definidos
-    
-    </p>
-    </div>
-
-<div class="col-12 col-md-6 col-lg-6" style="height: 500px; background-color: white;">
-<img     style="width: 600px; height: 500px;" class="img-fluid" src="multimedia/graficoservicios2.jpg" alt="potenciar">  </div>
 
 
 </div>
-<!-- botones -->
-<section class="butt2">
-    <p>.</p>
-    <a href="Contacto.html" class="botonservicios"><h3>Consultá ahora</h3></a>
 
-</section>
 </section>
 
 </section>
 
+      <!-- Iconos -->
 
 <div class="itemwapp">
-    <a href="https://api.whatsapp.com/send?phone=numero&text=mensaje">  
+    <a href="https://wa.link/kj5umd"> 
     <img style="width: 55px; height: 45px;" src="multimedia/whatsapp.png" alt="whatsapp" class="img1"> </div>
   </a>
   </div>
-  
+
+  <!-- Footer -->
+      
   <footer class="footer">
     <div class="footer-item footer-one">
     <img style="width: 40px; height: 30px;"src="multimedia/logosjb.png" alt="consultoria en funcion de tu negocio" class="logo">
@@ -177,9 +178,8 @@ Los obstáculos existen para superarlos y salir del otro lado renovados, no para
         <p>+54 9 11 64982110</p>
         </div>
           
-      <a class="nombre" href="#"><i class="fa fa-twitter icono"></i></a>
-      <a class="nombre" href="https://www.linkedin.com/in/juan-pablo-brussini/"><i class="fa fa-linkedin"></i></a>
-
+        <a class="lkin" href="https://twitter.com/juanpabrus"><i class="fa fa-twitter icono"></i></a>
+        <a class="lkin" href="https://www.linkedin.com/in/juan-pablo-brussini/"><i class="fa fa-linkedin"></i></a>
       </div>
          <div>
           <i class="fa fa-envelope"></i>

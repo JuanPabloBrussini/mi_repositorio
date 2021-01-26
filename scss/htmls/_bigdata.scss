@@ -13,7 +13,7 @@
     left: 10%;
     text-align: left;
     z-index: 2;
-    font-family: unset;
+    font-family: $fonts;
     font-size: 45px;
 color: $color-cuartario;
 }
@@ -24,7 +24,7 @@ color: $color-cuartario;
     width: 100%;
     height: 50%;
     z-index: 2;
-    font-family: unset;
+    font-family: $fonts;
     font-size: 50px;
 color: $color-cuartario;
 }
@@ -37,10 +37,11 @@ color: $color-cuartario;
 .textinside {
     margin-top: 20%;
 }
+
 .parrafo3 {
     margin-top: 0%;
+    margin-right: 3%;
 }
-
 .i.fa-envelope{
 	font-size: 16px;
 	line-height: 16px;
@@ -68,3 +69,9 @@ color: $color-cuartario;
 	margin-bottom: 5px;
 }
  
+.contenidosb {
+    margin-top: 3%;
+    margin-right: 12%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+}

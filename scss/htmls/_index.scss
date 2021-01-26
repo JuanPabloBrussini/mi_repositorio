@@ -34,9 +34,16 @@ color:$color-cuartario;
     font-size: 50px;
 color: $color-cuartario;
 }
-.contenido {
+.contener {
     margin-top: 5%;
-    margin-right: 12%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-bottom: 15%;
+}
+
+.contenidos {
+    margin-top: 5%;
+    margin-right: 11.99%;
     margin-left: 8%;
     margin-bottom: 15%;
 }
@@ -47,7 +54,7 @@ color: $color-cuartario;
 line-height: normal;
 letter-spacing: 3px;  
     text-align: center;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 3%;
     font-size: 2em;
     position: absolute;  
@@ -90,3 +97,9 @@ font-size: 30px;
     margin-left: .75rem;
   }
   
+.parrafo4 {
+    margin-top: 0%;
+    margin-right: 5%;
+    width: 240px;
+    text-align: justify;
+}
