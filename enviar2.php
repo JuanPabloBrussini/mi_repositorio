@@ -23,10 +23,9 @@ mail($para, $asunto, utf8_decode($mensajeCompleto), $header);
 
 header("Location:gracias.html");
 
-print_r($_POST);
+var_dump($_POST);
+die();
 
-var_dump($nombree);
-die($nombree);
 
 ?>
 
