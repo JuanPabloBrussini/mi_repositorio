@@ -1,3 +1,7 @@
+body {
+  background-color: #BECADA;
+}
+
 .btn {
   background-attachment: fixed;
   background-color: blue;
@@ -82,6 +86,20 @@
   text-align: center;
 }
 
+.butt4 {
+  color: white;
+  line-height: normal;
+  position: absolute;
+  left: 45%;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5%;
+  letter-spacing: 3px;
+}
+
+body {
+  background-color: #BECADA;
+}
+
 .footer {
   justify-content: space-between;
   background-color: black;
@@ -135,6 +153,10 @@
   line-height: 30px;
   margin-right: 5px;
   margin-bottom: 5px;
+}
+
+body {
+  background-color: #BECADA;
 }
 
 header {
@@ -199,6 +221,10 @@ nav {
 
 .dropdown-menu {
   margin-top: 0;
+}
+
+body {
+  background-color: #BECADA;
 }
 
 .itemwapp {
@@ -285,6 +311,14 @@ nav {
   margin-left: 25%;
   border-radius: 125px;
   border: 1px solid #666 transparent;
+}
+
+body {
+  background-color: #BECADA;
+}
+
+body {
+  background-color: #BECADA;
 }
 
 * {
@@ -933,6 +967,10 @@ nav {
     font-size: 1.3em;
   }
 }
+body {
+  background-color: #BECADA;
+}
+
 .cajamadreind {
   position: relative;
   display: inline-block;
@@ -1037,6 +1075,10 @@ h2 {
   text-align: justify;
 }
 
+body {
+  background-color: #BECADA;
+}
+
 .slogan1 {
   position: absolute;
   top: 17%;
@@ -1089,6 +1131,10 @@ h2 {
   color: #C70039;
   font-size: 2.2em;
   z-index: 2;
+}
+
+body {
+  background-color: #BECADA;
 }
 
 .cajamadrebd {
@@ -1169,6 +1215,10 @@ h2 {
   margin-bottom: 15%;
 }
 
+body {
+  background-color: #BECADA;
+}
+
 .slogandw1 {
   position: absolute;
   top: 17%;
@@ -1193,6 +1243,10 @@ h2 {
   font-family: unset;
   font-size: 1.7em;
   color: #C70039;
+}
+
+body {
+  background-color: #BECADA;
 }
 
 .slogan1m {
