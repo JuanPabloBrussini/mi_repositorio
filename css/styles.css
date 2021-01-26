@@ -293,7 +293,7 @@ body {
   height: 160px;
   position: relative;
   margin-top: 0%;
-  margin-left: 35%;
+  margin-left: 38%;
   border-radius: 80px;
   border: 1px solid #666 transparent;
 }
@@ -540,6 +540,16 @@ body {
     margin-top: 25%;
     margin-left: 10% !important;
   }
+
+  .img6 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 20% !important;
+    border-radius: 80px;
+    border: 1px solid #666 transparent;
+  }
 }
 @media only screen and (min-width: 290px) and (max-width: 359px) {
   body {
@@ -559,10 +569,20 @@ body {
 
   .img5 {
     margin-top: 25%;
-    margin-right: 10% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
+  }
+
+  .img6 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 16% !important;
+    border-radius: 80px;
+    border: 1px solid #666 transparent;
   }
 
   .slogan1 {
@@ -650,10 +670,20 @@ body {
 
   .img5 {
     margin-top: 15%;
-    margin-right: 5% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
+  }
+
+  .img6 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 18% !important;
+    border-radius: 80px;
+    border: 1px solid #666 transparent;
   }
 
   .itemwapp {
@@ -749,10 +779,20 @@ body {
 
   .img5 {
     margin-top: 25%;
-    margin-right: 0% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
+  }
+
+  .img6 {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 18% !important;
+    border-radius: 80px;
+    border: 1px solid #666 transparent;
   }
 
   .boton2 {
@@ -843,7 +883,7 @@ body {
 .contenidocont {
   margin-top: 10%;
   margin-right: 5%;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-bottom: 0%;
 }
 

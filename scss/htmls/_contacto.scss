@@ -216,6 +216,16 @@ box-sizing: border-box;
     
 }
 
+.img6 {
+    width: 160px;
+    height:160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 20% !important;
+    border-radius:80px;
+    border:1px solid #666 transparent;
+} 
+
 }
 
 @media only screen  and (min-width: 290px) and (max-width: 359px) {
@@ -234,11 +244,21 @@ box-sizing: border-box;
                     
 .img5 {
     margin-top: 25%;
-    margin-right: 10% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
 }
+
+.img6 {
+    width: 160px;
+    height:160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 16% !important;
+    border-radius:80px;
+    border:1px solid #666 transparent;
+} 
         .slogan1 {
             font-size: 1.3em !important;
             position: relative;
@@ -325,11 +345,21 @@ box-sizing: border-box;
     
 .img5 {
     margin-top: 15%;
-    margin-right: 5% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
 }
+
+.img6 {
+    width: 160px;
+    height:160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 18% !important;
+    border-radius:80px;
+    border:1px solid #666 transparent;
+} 
     .itemwapp /* relativo a todo el navegador */
     {
         position: fixed;
@@ -425,11 +455,21 @@ color: $color-cuartario;
 
 .img5 {
     margin-top: 25%;
-    margin-right: 0% !important;
+    margin-left: 10% !important;
     width: 200px !important;
     height: 200px !important;
     border-radius: 100px !important;
 }
+
+.img6 {
+    width: 160px;
+    height:160px;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 18% !important;
+    border-radius:80px;
+    border:1px solid #666 transparent;
+} 
 .boton2 {
 position: absolute;
 top: 91%;
@@ -527,7 +567,7 @@ color: $color-cuartario;
   .contenidocont {
     margin-top: 10%;
     margin-right: 5%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 0%;
 
 
