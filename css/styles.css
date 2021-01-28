@@ -317,6 +317,7 @@ body {
   width: 400px !important;
   height: 400px !important;
   border-radius: 240px !important;
+  margin-left: 5%;
   border: 1px solid #666 transparent;
 }
 
