@@ -313,6 +313,13 @@ body {
   border: 1px solid #666 transparent;
 }
 
+.img9 {
+  width: 400px !important;
+  height: 400px !important;
+  border-radius: 240px !important;
+  border: 1px solid #666 transparent;
+}
+
 body {
   background-color: #BECADA;
 }
@@ -550,6 +557,13 @@ body {
     border-radius: 80px;
     border: 1px solid #666 transparent;
   }
+
+  .img9 {
+    width: 320px !important;
+    height: 320px !important;
+    border-radius: 160px !important;
+    border: 1px solid #666 transparent;
+  }
 }
 @media only screen and (min-width: 290px) and (max-width: 359px) {
   body {
@@ -582,6 +596,13 @@ body {
     margin-top: 0%;
     margin-left: 16% !important;
     border-radius: 80px;
+    border: 1px solid #666 transparent;
+  }
+
+  .img9 {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 150px !important;
     border: 1px solid #666 transparent;
   }
 
@@ -653,7 +674,7 @@ body {
     font-size: 1.3em;
   }
 }
-@media only screen and (min-width: 250px) and (max-width: 291px) {
+@media only screen and (min-width: 250px) and (max-width: 289px) {
   body {
     width: 130% !important;
     background-color: white;
@@ -683,6 +704,13 @@ body {
     margin-top: 0%;
     margin-left: 18% !important;
     border-radius: 80px;
+    border: 1px solid #666 transparent;
+  }
+
+  .img9 {
+    width: 260px !important;
+    height: 260px !important;
+    border-radius: 130px !important;
     border: 1px solid #666 transparent;
   }
 
@@ -792,6 +820,13 @@ body {
     margin-top: 0%;
     margin-left: 18% !important;
     border-radius: 80px;
+    border: 1px solid #666 transparent;
+  }
+
+  .img9 {
+    width: 240px !important;
+    height: 240px !important;
+    border-radius: 120px !important;
     border: 1px solid #666 transparent;
   }
 
@@ -988,6 +1023,13 @@ body {
 
   .carousel-caption .tituloriesgo {
     font-size: 1.3em;
+  }
+
+  .img9 {
+    width: 220px !important;
+    height: 220px !important;
+    border-radius: 110px !important;
+    border: 1px solid #666 transparent;
   }
 }
 body {
