@@ -90,7 +90,7 @@ body {
   color: white;
   line-height: normal;
   position: absolute;
-  left: 45%;
+  left: 37%;
   font-family: "Times New Roman", Times, serif;
   margin-bottom: 5%;
   letter-spacing: 2.8px;
@@ -307,8 +307,8 @@ body {
   width: 150px;
   height: 150px;
   position: relative;
-  margin-top: 5%;
-  margin-left: 25%;
+  margin-top: 12%;
+  margin-left: 38%;
   border-radius: 125px;
   border: 1px solid #666 transparent;
 }
