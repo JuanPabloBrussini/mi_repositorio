@@ -1,5 +1,32 @@
+@import '../base/fonts';
+@import '../base/colors';
+
 .tituloriesgo {
     color: $color-cuartario;
     font-size: 2.2em;
     z-index: 2;
+}
+.slogan1r {
+    position: absolute;
+    top: 17%;
+    right: 0%;
+    text-align: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50%;
+    font-family: $fonts;
+    font-size: 1.8em;
+color: $color-cuartario;
+z-index: 1;
+}
+.slogan2r {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-family: $fonts;
+    font-size: 1.5em;
+    color: $color-cuartario;
 }
